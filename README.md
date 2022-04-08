@@ -11,13 +11,13 @@ CKEditor — свободный WYSIWYG-редактор, который мож�
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
+php composer.phar require --prefer-dist kitsunefet/yii2-ckeditor "*"
 ```
 
 или добавить
 
 ```json
-"mihaildev/yii2-ckeditor": "*"
+"kitsunefet/yii2-ckeditor": "*"
 ```
 
 в разделе `require` вашего composer.json файла.
@@ -25,7 +25,7 @@ php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
 ## Использование
 
 ```php
-use mihaildev\ckeditor\CKEditor;
+use kitsunefet\ckeditor\CKEditor;
 use yii\helpers\Html;
 
 CKEditor::widget([
@@ -51,4 +51,4 @@ CKEditor Api - http://docs.ckeditor.com/
 
 CKEditor Примеры - http://nightly.ckeditor.com/
 
-Файл Менеджер ElFinder - https://github.com/MihailDev/yii2-elfinder
+Файл Менеджер ElFinder - https://github.com/kitsunefet/yii2-elfinder

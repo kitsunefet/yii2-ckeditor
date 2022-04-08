@@ -1,4 +1,4 @@
-Copyright (c) 2014, MihailDev set4web.ru 
+Copyright (c) 2014, kitsunefet set4web.ru 
 All rights reserved. 
 
 Redistribution and use in source and binary forms, with or without 
