@@ -48,8 +48,8 @@ CKEDITOR.plugins.add( 'lenta_autocomplete', {
 					callback(data);
 			    }
 
-		          var itemTemplate = '<li data-id="{el_id}"><div><strong class="item-title">{name}</strong></div></li>',
-		            outputTemplate = '&nbsp;<span class="lenta_{type}" data-target="{id}">{name}</span>&nbsp;';
+		          var itemTemplate = '<li data-id="{id}"><div><strong class="item-title">{name}</strong></div></li>',
+		            outputTemplate = '&nbsp;<span class="lenta_{type}" data-target="{el_id}">{name}</span>&nbsp;';
 
 
 		          var autocomplete = new CKEDITOR.plugins.autocomplete(evt.editor, {
